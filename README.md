@@ -1,2 +1,6 @@
-# lab_chucknorris_spark
-Code and Lab for Chuck Norris Spark Bot Lab
+# lab\_chucknorris\_spark
+
+Code and resources for coding tutorial **Build a Chat Bot with Chuck Norris, Python and Docker:** *Have a little fun while we learn about Spark Bot creation*.  
+
+
+

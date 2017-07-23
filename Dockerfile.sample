@@ -1,0 +1,17 @@
+FROM python:3.6-alpine
+MAINTAINER Hank Preston <hank.preston@gmail.com>
+EXPOSE 5000
+
+# Create bot directory and add code
+RUN mkdir /bot
+WORKDIR /bot
+
+# Install Bot Requirements
+ADD ./requirements.txt /bot
+RUN pip install -r /bot/requirements.txt
+
+# Add Bot Code
+ADD ./mybot.py /bot
+
+# Run Bot
+CMD [ "python", "mybot.py" ]
