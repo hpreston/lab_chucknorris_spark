@@ -2,6 +2,7 @@
 mybot.py
 Dockerfile
 notes.txt
+notes.bat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
